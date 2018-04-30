@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="ItemsAppJs.css">
+	<title>To do List</title>
+</head>
+<body class="bg-dark">
+
+<div class="container-fluid bg-dark">
+	<nav class="navbar navbar-light bg-dark justify-content-between">
+		  <a class="navbar-brand text-success"><h1 id="navText">To Do List</h1></a>
+		<form class="form-inline">
+	      <input class="form-control mr-sm-2" type="search" placeholder="Filtrar tareas..." aria-label="Search" id="filtro">
+	      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="btnSearch">Buscar</button>
+  		</form>
+	</nav>
+
+	<div id="main" class="card card-body p-4">
+		<h5 text-success>Agregar Items</h1>
+		<form id="formAgregar" class="form-inline mb-3">
+			<input type="text" class="form-control mr-2" id="inputAgregar">
+			<input type="submit" class="btn btn-outline-success">
+		</form>
+			<p id="error" style="color: #b0b1b2;">Por favor, ingresa algún valor</p>
+
+		<h5> Items </h5>
+		<ul class="list-group" id="listaItems">
+		  <li class="list-group-item">Item 1<button class="btn btn-danger float-right btn-sm">X</button></li>
+		  <li class="list-group-item">Item 2<button class="btn btn-danger float-right btn-sm">X</button></li>
+		  <li class="list-group-item">Item 3<button class="btn btn-danger float-right btn-sm">X</button></li>
+		  <li class="list-group-item">Item 4<button class="btn btn-danger float-right btn-sm">X</button></li>
+		  <li class="list-group-item">Item 5<button class="btn btn-danger float-right btn-sm">X</button></li>
+		</ul>
+	</div>
+
+	<div class="footer-copyright py-3 text-center">
+        <p class="text-success"> © 2018 Copyright:</p>
+        <a href="https://mdbootstrap.com/material-design-for-bootstrap/">
+            <strong> TODOLISTAPP</strong>
+        </a>
+    </div>
+                      
+	
+	
+</div>
+<script src="ItemsAppJs.js"></script>
+</body>
+</html>
