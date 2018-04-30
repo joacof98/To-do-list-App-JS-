@@ -1,2 +1,6 @@
-# To-do-list-App-JS-
-To do list in Javascript
+# To do list app
+App to do list. 
+Manipulación de DOM y uso de Jquery
+Tuto traversymedia.
+
+#Epic
